@@ -1,15 +1,18 @@
-
+import Layout from './components/layout/layout'
 import './App.css'
+import CardStory from './components/home/CardStory'
+import Card from './components/home/card'
+
 
 function App() {
 
 
   return (
-    <>
-      <h1 className="text-3xl font-bold text-white">
-    Hello world!
-  </h1>
-    </>
+    <Layout>
+      <CardStory/>
+      <hr/>
+      <Card/>
+    </Layout>
   )
 }
 
